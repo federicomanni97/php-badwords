@@ -1,3 +1,7 @@
+<?php
+$writedtext = $_GET["text"]
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,7 +13,9 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <div></div>
+    <div>
+        <p><?php echo $writedtext ?></p>
+    </div>
 </body>
 <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
 <script src="js/script.js"></script>

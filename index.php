@@ -11,7 +11,7 @@
 <body>
     <form action="censored.php" method="GET">
         <textarea name="text" cols="15" rows="5"></textarea>
-        <button>invia</button>
+        <button type="submit">invia</button>
     </form>
 </body>
 <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
