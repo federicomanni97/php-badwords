@@ -1,7 +1,8 @@
 <?php
 $writedtext = $_GET["text"];
 $censored = $_GET["censoredword"];
-var_dump($writedtext)
+var_dump($writedtext);
+$badword = str_replace($censored, '***', $writedtext);
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -16,6 +17,7 @@ var_dump($writedtext)
 <body>
     <div>
         <p><?php echo $writedtext ?></p>
+        <p><?php echo $badword ?></p>
     </div>
 </body>
 <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
