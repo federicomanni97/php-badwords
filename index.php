@@ -11,6 +11,7 @@
 <body>
     <form action="censored.php" method="GET">
         <textarea name="text" cols="15" rows="5"></textarea>
+        <input type="text" name="censoredword">
         <button type="submit">invia</button>
     </form>
 </body>

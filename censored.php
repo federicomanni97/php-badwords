@@ -1,6 +1,7 @@
 <?php
-$writedtext = $_GET["text"]
-
+$writedtext = $_GET["text"];
+$censored = $_GET["censoredword"];
+var_dump($writedtext)
 ?>
 <!DOCTYPE html>
 <html lang="en">
